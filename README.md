@@ -8,7 +8,7 @@ I have focused on showing how to break the code, isolate methods, basically make
 - run Search with long strings (to see how it fits in the search box and if it doesn't break search engine)
 - run Search and then update Search criteria
 - run Search and use different Filter criteria - to see if it works together returning the correct results
-- use Search (on search page) whic refreshes results after every char (likely to break at some point since it does live refresh)
+- use Search (on search page) which refreshes results after every char (likely to break at some point since it does live refresh)
 - use Filters - mix with all filters - check returned results are correct
 - use Filters and then clear them - check returned results are correct
 - open Event and go back - see if we land on the correct page (list of events from previous step)
@@ -39,6 +39,7 @@ Actual Results:
 8. Possible to run search on empty criteria
 Steps: 
 - put cursor in search box and hit enter
+
 Results:
 - some events are returned but not sure what's the criteria of returning such list
 9. 'Showing 0 to 7 of 7 total results' text
