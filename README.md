@@ -1,6 +1,7 @@
 # Tests 
 I have implemented scenarios listed in the task description.
 I have focused on showing how to break the code, isolate methods, basically make it easy to maintain and re-use common parts.
+Because of shortage of time, I am leaving the list of missing scenarios that could be implemented.
 
 # Missing scenarios
 - run Search with empty criteria
@@ -22,10 +23,12 @@ I have focused on showing how to break the code, isolate methods, basically make
  - it takes quite a lot of time to load the content of the page (i.e. when I click in Featured Events / Today's Events)
 2. When I open the main page, calendar (on the right) should highlight actual date (at least this is what I would expect)
 3. search filter remembers previous search criteria
+
 Steps:
 - go to the main page
 - put search criteria i.e. 'QA'
 - when results are returned change search criteria to 'QA:'
+
 Actual Results:
 - I can see that search criteria where not updated and results with 'QA' are returned
 4. search filter is not cleared when I refresh the page (by clicking Dev's School Events link) 
@@ -37,10 +40,11 @@ Actual Results:
 7. Filtering box has delete icon
 - this is confusing, I am not able to remove this box
 8. Possible to run search on empty criteria
+
 Steps: 
 - put cursor in search box and hit enter
 
-Results:
+Actual Results:
 - some events are returned but not sure what's the criteria of returning such list
 9. 'Showing 0 to 7 of 7 total results' text
 - I think that we should count from 1 (Showing 1-7)
