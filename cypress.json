@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://damian-events.coursedog.com/",
+    "fixturesFolder": "fixtures",
+    "integrationFolder": "specs",
+    "pluginsFile": "plugins",
+    "screenshotsFolder": "screenshots",
+    "supportFile": "support"
+}
